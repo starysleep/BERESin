@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "934099003137",
+    "project_id": "beresin-8d631",
+    "storage_bucket": "beresin-8d631.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934099003137:android:22fbbdd9f87d4354b39d00",
+        "android_client_info": {
+          "package_name": "com.example.beresin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEyIHGka-zA_MFhm6rmjXZMYfzMB0c2OY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
