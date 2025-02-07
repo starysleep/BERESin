@@ -1,4 +1,4 @@
-# <summary><strong>Hi there :wave: , I'm Bintang with Dyah! This our project for final assignment</strong></summary>
+# <summary><strong>Hi there :wave: , I'm Bintang and I'm Dyah! This our project for final assignment</strong></summary>
 # BERESin APP
 
 BERESin allows users to upload images, store their location, and view a history of their class duty. The app integrates with Firebase for authentication, Firestore for data storage, and Cloudinary for image hosting.
