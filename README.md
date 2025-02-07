@@ -1,29 +1,92 @@
-# <summary><strong>Hi there :wave: , I'm Bintang and my friend Dyah!</strong></summary>
-Lifelong Learner, currently working as budagh kompeni.
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=goonesmile&label=Profile%20views&color=0e75b6&style=flat" alt="isrealodejobi" />
-</p>
+# BERESin APP
 
-### <summary><strong>Tools:</strong></summary>
-<p>
-    <img src="https://img.shields.io/badge/Text%20Editor-Visual%20Studio%20Code-blue?&logo=visual%20studio%20code&logoColor=blue" />
-</p>
+BERESin allows users to upload images, store their location, and view a history of their class duty. The app integrates with Firebase for authentication, Firestore for data storage, and Cloudinary for image hosting.
 
-### <summary><strong>Yosh!</strong></summary>
-<p>
-    - :keyboard: I’m currently learning Data Analytics. </br>
-    - :speech_balloon: Ask me about anything.</br>
-    - :mailbox: How to reach me: <a href="mailto:youremail@gmail.com">Email me!</a>  </br>
-    - :cloud: Pronouns: She/Her. </br>
-    - :game_die: Drawing and writing are part of me. </br>
-<p>
- 
-### <summary><strong>Let's connect!</strong></summary>
-<a href="https://twitter.com/yours">
-  <img align="left" alt="Goo's Twitter" width="20px" src="https://simpleicons.now.sh/twitter/495f7e" />
-</a>
-<a href="https://www.instagram.com/yours/">
-  <img align="left" alt="Goo's Instagram" width="20px" src="https://simpleicons.now.sh/instagram/495f7e" />
-</a>
-<a href="https://yours.com/">
-  <img align="left" alt="Goo's Blog" width="20px" src="https://simpleicons.now.sh/blogger/495f7e" />
-</a>
+## Features
+
+- User authentication with Firebase
+- Image capture and upload to Cloudinary
+- Location tracking using Geolocator
+- Address retrieval using Geocoding
+- History page to view past submissions
+- Responsive UI with Flutter
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Firebase (Firestore, Authentication, Storage)
+- Cloudinary
+- Geolocator
+- Geocoding
+- HTTP
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Dart SDK
+- Firebase project setup
+- Cloudinary account
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
+   
+2. Navigate to the project directory:
+   cd your-repo-name
+   
+3. Install the dependencies:
+   flutter pub get
+
+4. Set up Firebase:
+
+Create a Firebase project at Firebase Console.
+Add your Flutter app to the Firebase project.
+Download the google-services.json file and place it in the android/app directory.
+Configure Firestore and Authentication in the Firebase console.
+Set up Cloudinary:
+
+Create a Cloudinary account at Cloudinary.
+Obtain your Cloudinary API credentials (API Key, API Secret, Cloud Name) and update them in the code.
+Running the App
+To run the app, use the following command:
+flutter run
+
+Usage
+Authentication: Users can sign in using their email and password.
+Image Upload: Users can take photos using the camera and upload them.
+Location Tracking: The app checks if the user is within a specified radius and retrieves the address.
+History: Users can view their submission history, including images, date, time, and address.
+Code Structure
+lib/: Contains the main application code.
+Screens/: Contains different screens of the app (e.g., Beresin, HistoryScreen).
+models/: Contains data models (e.g., post.dart).
+resources/: Contains resource files (e.g., image storage methods).
+utils.dart: Contains utility functions.
+constants.dart: Contains constant values used throughout the app.
+Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Acknowledgments
+Flutter - The UI toolkit for building natively compiled applications.
+Firebase - Backend services for mobile and web applications.
+Cloudinary - Image and video management service.
+Geolocator - Flutter plugin for accessing the device's location.
+Geocoding - Flutter plugin for converting coordinates to addresses.
+
+
+### Customization
+
+- Replace `yourusername` and `your-repo-name` with your actual GitHub username and repository name.
+- Update any specific instructions or features that are unique to your project.
+- Add any additional sections that you think are necessary, such as FAQs or troubleshooting tips.
+
+This `README.md` file provides a comprehensive overview of your project, making it easier for others (and yourself) to understand and use the application.
