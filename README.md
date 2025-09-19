@@ -59,9 +59,6 @@ constants.dart: Contains constant values used throughout the app.
 Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 Acknowledgments
 Flutter - The UI toolkit for building natively compiled applications.
 Firebase - Backend services for mobile and web applications.
