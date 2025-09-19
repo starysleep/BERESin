@@ -31,20 +31,6 @@ BERESin allows users to upload images, store their location, and view a history 
 - Firebase project setup
 - Cloudinary account
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
-   
-2. Navigate to the project directory:
-   cd your-repo-name
-   
-3. Install the dependencies:
-   flutter pub get
-
-4. Set up Firebase:
 
 Create a Firebase project at Firebase Console.
 Add your Flutter app to the Firebase project.
@@ -83,11 +69,3 @@ Cloudinary - Image and video management service.
 Geolocator - Flutter plugin for accessing the device's location.
 Geocoding - Flutter plugin for converting coordinates to addresses.
 
-
-### Customization
-
-- Replace `yourusername` and `your-repo-name` with your actual GitHub username and repository name.
-- Update any specific instructions or features that are unique to your project.
-- Add any additional sections that you think are necessary, such as FAQs or troubleshooting tips.
-
-This `README.md` file provides a comprehensive overview of your project, making it easier for others (and yourself) to understand and use the application.
